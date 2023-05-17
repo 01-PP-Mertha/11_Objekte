@@ -90,7 +90,7 @@ let baikal = {
                 deep:{
 
                         deeper:{
-                                    deepst:"Das Licht - auf 1642m",
+                                    deepest:"Das Licht - auf 1642m",
                                     temperatur:"4 Grad Celsius"
 
                         }
@@ -102,7 +102,8 @@ let baikal = {
 
 output(baikal);
 output(baikal.value)
-
+output(baikal.deep.deeper.deepest)
+output(baikal.deep.deeper.temperatur)
 
 
 /** Ausgabe */
